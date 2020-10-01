@@ -1,6 +1,6 @@
 Feature: Como cliente, quiero ingresar los credenciales de mi cuenta, para realizar una compra dentro del sitio
 
-  @CheckoutFlow
+  @CheckOutFlow
   Scenario: El cliente inicia sesión en el sitio de compras y realiza una compra
     Given el cliente se encuentra en la pagina de Home
     When el cliente hace click en el botón Sign in
@@ -34,6 +34,7 @@ Feature: Como cliente, quiero ingresar los credenciales de mi cuenta, para reali
     When el cliente hace click en el botón PayByBank
     And el cliente hace click en el botón Confirm
     Then el cliente verifica que fue redireccionado a la pantalla de Confirmation
+
 
 
 
