@@ -16,7 +16,7 @@
     <properties>
         <crowd.project.name>AutomationPractice</crowd.project.name>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <crowdar.cucumber.filter>@CheckoutFlow</crowdar.cucumber.filter>
+        <crowdar.cucumber.filter>@CheckOutFlow</crowdar.cucumber.filter>
         <cucumber.runner>testng.xml</cucumber.runner>
         <crowdar.driverHub></crowdar.driverHub>
         <crowdar.projectType>WEB_CHROME</crowdar.projectType>
